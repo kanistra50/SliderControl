@@ -1,0 +1,64 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #660000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    background: lightgrey;
+    height: 0px;
+    opacity: 0;
+}
+
+.menu {
+  padding: 100px;
+}
+
+.accord {
+    background:  #660000;
+    background-size: 16px;
+    color: white;
+    padding: 5px 35px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.accord img {
+    position: absolute;
+    width: 16px;
+    left: 10px;
+    top: 9px;
+    transition: .4s;
+
+}
+
+.accord:hover {
+    color: #29A19C;
+}
+
+.show {
+    height: 100px;
+    padding: 10px 37px;
+    transition: .3s;
+}
+
+.hide {
+    max-height: 0px;
+    transition: .2s;
+
+}
+
+.opacity {
+    opacity: 1;
+}
+
+.rotate {
+    transform: rotate(450deg);
+}
