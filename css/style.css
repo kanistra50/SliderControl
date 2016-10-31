@@ -56,7 +56,7 @@ img.img {
 }
 
 img.plus {
-    background: url('../img/plus.png');
+    background: url('../image/plus.png');
     background-size: 20px 20px;
     background-repeat: no-repeat;
     border-box: none;
@@ -64,7 +64,7 @@ img.plus {
 }
 
 img.tick {
-    background: url('../img/tick.png');
+    background: url('../image/tick.png');
     background-size: 20px 20px;
     background-repeat: no-repeat;
 }    
