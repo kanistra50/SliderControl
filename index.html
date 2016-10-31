@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Accordion</title>
-    <meta charset="UTF-8">
-    <link href="css/style.css" rel="stylesheet"/>
-    <link href='https://fonts.googleapis.com/css?family=Poppins:600' rel='stylesheet' type='text/css'>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sliders</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <div class="menu">
-        <p class="accord">
-            <img src="image/this.png"/>
-            Drop-down list 1</p>
-        <ul>
-            <li>First item</li>
-            <li>Second item</li>
-            <li>Third list</li>
-        </ul>
-        <p class="accord">
-            <img src="image/this.png"/>
-            Drop-down list 2</p>
-        <ul>
-            <li>First item</li>
-            <li>Second item</li>
-            <li>Third list</li>
-        </ul>
-        <p class="accord">
-            <img src="image/this.png"/>
-            Drop-down list 3</p>
-        <ul>
-            <li>First item</li>
-            <li>Second item</li>
-            <li>Third list</li>
-        </ul>
+<body bgcolor="grey">
+    <div class="container">
+         <img class="back" src="img/945267214.jpg">
+         <div class='main hide'>
+             <div class='button'>
+                <img class="img plus" />
+             </div> 
+             <div class='pos section1'>
+                <span id='text1'>Text1</span>
+                <span class='input_data' data='text1'>+200</span>
+             </div> 
+             <div class='pos section2'>
+                <div class='line'>
+                    <input type="range" class="range" data="text1" min="0" max="400"/>
+                </div>
+             </div> 
+             <div class='pos section3'>
+                <span id='text2'>Text2</span>
+                <span class='input_data' data='text2'>+3000</span>
+             </div> 
+             <div class='pos section4'>
+                <div class='line'>
+                  <input type="range" class="range" data="text2" min="0" max="4000"/>
+             </div>
+             </div>
+           </div>
     </div>
-    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
