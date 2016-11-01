@@ -4,7 +4,6 @@ div.container  {
     width: 300px;
     height: 300px;
     background-color: black;
-
 }
 
 .hide {
@@ -113,7 +112,6 @@ img.shadow {
     position: relative;
     top: 6px;
     height: 7px;
-   
 }
 
 .section3 {
