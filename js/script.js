@@ -33,12 +33,3 @@ function onChangeRange(e) {
   var $text = $('.input_data[data="'+text+'"]');
   $text.html('+'+value);
 };
-
-function toogler() {
-    console.log("Yes");
-    if ( $( this ).is( ".plus" ) ) {
-    return "tick";
-  } else {
-    return "plus";
-  }
-};
