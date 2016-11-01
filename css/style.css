@@ -56,12 +56,12 @@ img.img {
 }
 
 img.plus {
-    background: url('../img/plus.png');
+    background: url('../image/plus.png');
     background-size: 22px 22px;
 }
 
 img.tick {
-    background: url('../img/tick.png');
+    background: url('../image/tick.png');
     background-size: 22px 22px;
 }    
 
