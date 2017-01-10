@@ -28,8 +28,8 @@ $(document).ready(function(){
 });
 
 function onChangeRange(e) {
-  var text = $(this).attr('data');
-  var value = e.target.value;
-  var $text = $('.input_data[data="'+text+'"]');
+  var text = $(this).attr('data'),
+      value = e.target.value,
+      $text = $('.input_data[data="'+text+'"]');
   $text.html('+'+value);
 };
