@@ -1,11 +1,11 @@
 $(document).ready(function(){
   
-    var $container = $('.container');
-    var $main = $('.main');
-    var $btn = $('.button');
-    var $range = $('input.range');
-    var $back = $('.back');
-    var $img = $('.img');
+    var $container = $('.container'),
+        $main = $('.main'),
+        $btn = $('.button'),
+        $range = $('input.range'),
+        $back = $('.back'),
+        $img = $('.img');
   
     $container
         .mouseover(function() {
